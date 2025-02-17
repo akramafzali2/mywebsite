@@ -1,2 +1,34 @@
-# mywebsite
-nothing 
+
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه ورود مشابه فیسبوک</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>ورود به حساب کاربری</h2>
+        
+        <form id="login-form">
+            <div class="input-field">
+                <label for="username">نام کاربری یا ایمیل</label>
+                <input type="text" id="username" placeholder="ایمیل یا نام کاربری" required>
+            </div>
+            
+            <div class="input-field">
+                <label for="password">پسورد</label>
+                <input type="password" id="password" placeholder="پسورد" required>
+            </div>
+            
+            <button type="submit" id="login-btn">ورود</button>
+        </form>
+        
+        <p>حساب کاربری ندارید؟ <a href="#">ثبت‌نام کنید</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
