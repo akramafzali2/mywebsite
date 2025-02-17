@@ -19,40 +19,51 @@ body {
     height :600px;
     text-align: center;
 }
+.login-container h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
 .login-container img {
      width :50px;
      height :50px;
+     margin: 50px 0px 50px 0px;
+    
     border-radius :50%;
 }
-h2 {
-    color: #3b5998;
-    font-size: 24px;
-}
+
 
 .input-field {
     margin-bottom: 20px;
     text-align: left;
+    position: relative;
 }
 
 .input-field input {
     width: 100%;
-    padding: 10px;
-    font-size: 14px;
+    padding: 10px 15px ;
+  
+   
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin-top: 5px;
+   
+    margin-top:auto;
+
 }
 
 button {
     background-color: #3b5998;
-     
+     font-family: 'Times New Roman', Times, serif;
+     letter-spacing: 1px;
     color: white;
     border: none;
     padding: 10px;
     width: 106%;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 button:hover {
@@ -60,14 +71,39 @@ button:hover {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .login-container .create-new{
+    padding: 10px;
+    border: 2px solid ;
+    border-color: #154fcc , #be0fb6ca;
+    border-radius: 50px;
+    text-align:center;
+    color: #3b5998;
+    margin: 140px 0px 20px 0px;
+
+}
+.login-container .meta-logo{
+    color: rgb(61, 60, 60);
 }
 
 a {
-    color: #3b5998;
+    color: #121316;
     text-decoration: none;
+    
 }
 
 a:hover {
+    text-decoration: underline;
+    color: #154fcc;
+    font-weight: bold;
+}
+ .login-container .create-new  a{
+    color: #213d91;
+    text-decoration: none;
+}
+
+.login-container .create-new a:hover {
     text-decoration: underline;
 }
